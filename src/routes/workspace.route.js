@@ -52,6 +52,7 @@ router.post('/:workspaceId/leave', leaveWorkspace);
 // Xem các lời mời đang chờ của người dùng (SỬA LỖI: Đặt route này ở cuối để tránh xung đột)
 router.get('/invitations/me', listMyInvitations);
 router.post('/invitations/:invitationId/accept', acceptInvitation);
+router.get('/invitations/:invitationId/accept', acceptInvitation);
 router.post('/invitations/:invitationId/reject', rejectInvitation);
 
 
