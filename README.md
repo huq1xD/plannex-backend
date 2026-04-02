@@ -70,7 +70,7 @@ npx prisma migrate dev
 
 **5. Chạy server:**
 ```bash
-npm run dev
+npm start
 ```
 Server chạy tại `http://localhost:3000`
 
